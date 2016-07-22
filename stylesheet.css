@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+}
+
+.canvas-wrap{
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+}
+
+.canvas-grid{
+  display: inline-block;
+  width: 195px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
