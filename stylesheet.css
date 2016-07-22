@@ -1,17 +1,23 @@
 body{
   margin: 0;
+  height: 100%;
 }
 
 .canvas-wrap{
-  margin: 0 auto;
-  width: 600px;
-  height: 600px;
+
+
 }
 
+.canvas-board{
+  background-color: tomato;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
 .canvas-grid{
+  margin: 0;
   display: inline-block;
-  width: 195px;
+  width: 196px;
   height: 200px;
-  text-align: center;
-  line-height: 200px;
+
 }
