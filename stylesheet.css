@@ -12,11 +12,16 @@ body{
 
 .canvas-board{
   background-color: tomato;
+  height: 600px;
+  overflow: hidden;
+  width: 100%;
 }
+
 .canvas-grid{
   margin: 0;
   display: block;
-  width: 196px;
+  width: 200px;
   height: 200px;
-
+  display: inline-block;
+  float: left;
 }
