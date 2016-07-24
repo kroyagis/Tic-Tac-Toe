@@ -25,3 +25,7 @@ body{
   display: inline-block;
   float: left;
 }
+
+#x{
+  background-color: blue;
+}
