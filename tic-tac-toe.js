@@ -9,5 +9,15 @@ $(function(){
       $(this).attr('id', 'o');
       turn++;
     }
+    checkWinner();
   });
+
+  var checkWinner = function(){
+    if(
+      $('[data-id=1]').attr('id') == $('[data-id=2]').attr('id')
+      && $('[data-id=1]').attr('id') == $('[data-id=3]').attr('id')
+    ){
+      console.log("Winner has been decided!");
+    }
+  }
 });
