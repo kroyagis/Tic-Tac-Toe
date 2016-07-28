@@ -64,6 +64,9 @@ $(function(){
     ){
       alert($('[data-id=4]').attr('id') + " has won!");
       resetBoard();
+    }else if(turn==9){
+      alert("Draw!");
+      resetBoard();
     }
   }
   var resetBoard = function(){
